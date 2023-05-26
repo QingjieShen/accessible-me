@@ -15,9 +15,9 @@
 <body>
   <div class="container">
     <a href="#maincontent">Skip To Content &darr;</a>
-    <header class="site-header">
+    <header class="site-header" role="banner">
       <h1>Jam Box Studios</h1>
-      <nav class="main-nav">
+      <nav class="main-nav" role="navigation">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
@@ -27,11 +27,11 @@
       </nav>
       <img src="https://placekitten.com/1200/900" class="banner" alt="Picture of kitten">
     </header>
-    <main class="main-content" id="maincontent">
+    <main class="main-content" id="maincontent" role="main">
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <section class="owner">
+      <section class="owner" role="region">
         <h3>Meet the owner</h3>
         <ul>
           <li>Name: John Doe</li>
@@ -39,6 +39,8 @@
           <li>Email: johnjoe@jambox.ca</li>
           <li>Phone: 613-000-0000</li>
         </ul>
+      </section>
+      <section class="address" role="region">
         <h3>Address</h3>
         <ul>
           <li>Jambox Studios</li>
@@ -47,9 +49,9 @@
           <li>B3T 0L0</li>
         </ul>
       </section>
-      <section class="contact-section">
+      <section class="contact-section" role="region">
         <h3>Contact Us</h3>
-        <form action="thanks.html">
+        <form action="thanks.html" role="form">
           <div>
             <label>Full Name</label>
             <input type="text" placeholder="Full Name">
@@ -68,7 +70,7 @@
         </form>
       </section>
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
       <p>&copy; 2021 Jam Box Studios</p>
     </footer>
   </div>
